@@ -20,16 +20,16 @@ const ContactForm = () => {
         <form ref={form} onSubmit={sendEmail} className="w-full bg-ligther_neutral px-16 py-8 rounded-xl max-sm:p-6">
             <h3 className="text-2xl font-bold text-dark_neutral">Me Contacter</h3>
 
-            <div className="flex flex-wrap -mx-3 mb-1">
-                <div className="w-full md:w-1/2 px-3 mb-1 md:mb-0">
-                    <label className="block uppercase font-bold mb-2" htmlFor="user_object">
+            <div className="flex flex-wrap -mx-3 mb-4 my-3">
+                <div className="w-full md:w-1/2 px-3 mb-3 md:mb-0">
+                    <label className="block uppercase font-bold mb-2 text-dark_neutral" htmlFor="user_object">
                     Objet
                     </label>
                     <input className="w-full text-dark_neutral border rounded py-2 px-2" 
                     type="text" name="user_object" placeholder="Restaurant" id="user_object" required/>
                 </div>
                 <div className="w-full md:w-1/2 px-3">                    
-                    <label className="block uppercase font-bold mb-2" htmlFor="user_mail">
+                    <label className="block uppercase font-bold mb-2 text-dark_neutral" htmlFor="user_mail">
                     Email
                     </label>
                     <input className="w-full text-dark_neutral border rounded py-2 px-2" 
@@ -38,7 +38,7 @@ const ContactForm = () => {
             </div>
             <div className="flex flex-wrap -mx-3 mb-6">
                 <div className="w-full px-3">
-                <label className="block uppercase font-bold mb-2" htmlFor="user_message">
+                <label className="block uppercase font-bold mb-2 text-dark_neutral " htmlFor="user_message">
                 Message
                 </label>
                 <textarea className="w-full text-dark_neutral border border-gray-200 rounded py-3 px-4 mb-3" name="user_message" 
