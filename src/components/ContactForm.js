@@ -18,7 +18,7 @@ const ContactForm = () => {
 
     return (
         <form ref={form} onSubmit={sendEmail} className="w-full bg-ligther_neutral px-16 py-8 rounded-xl max-sm:p-6">
-            <h3 className="text-2xl font-bold text-dark_neutral">Me Contacter</h3>
+            <h3 className="text-2xl font-bold text-dark_neutral">Nous Contacter</h3>
 
             <div className="flex flex-wrap -mx-3 mb-4 my-3">
                 <div className="w-full md:w-1/2 px-3 mb-3 md:mb-0">
