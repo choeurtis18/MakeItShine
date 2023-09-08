@@ -10,9 +10,5 @@ export const SercicesList = [
     {
         title: "Hébergement de site Web",
         description: "Notre agence web vous met en relation avec des plateformes d’hébergement afin de vous aider dans l’étape d’hébergement de votre site web."
-    },
-    {
-        title: "Optimisation de la stratégie digital",
-        description: "Découvrez l'outil révolutionnaire de notre agence web pour vous aider à générer facilement des idées de posts captivants en lien avec votre activité professionnelle. Simplifiez votre stratégie de marketing sur les réseaux sociaux et engagez votre audience de manière efficace avec notre solution innovante."
     }
 ];
