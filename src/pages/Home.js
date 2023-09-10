@@ -28,8 +28,8 @@ const Home = (props) => {
 
         <div id="services" className="grid gap-y-10 px-12 py-[40px] max-sm:py-[24px] max-sm:p-12 text-center text-dark_neutral">
             <div className="grid gap-y-3">
-                <h3 className="text-3xl font-bold">Mes Services</h3>
-                <p className="text-sm text-mid_neutral">Voici les différents services que je propose</p>
+                <h3 className="text-3xl font-bold">Nos Services</h3>
+                <p className="text-sm text-mid_neutral">Voici les différents services que nous proposons</p>
             </div>
 
             <Accordion className='w-full' allowMultiple>
